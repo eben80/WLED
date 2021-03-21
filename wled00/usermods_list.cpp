@@ -15,12 +15,8 @@
 #endif
 
 //#include "usermod_v2_empty.h"
-<<<<<<< HEAD
-#ifdef USERMOD_BUZZER 
-=======
-
 #ifdef USERMOD_BUZZER
->>>>>>> 213bc75ae1b96be5ba4f810367e3deab090ebd9e
+
 #include "../usermods/buzzer/usermod_v2_buzzer.h"
 #endif
 #ifdef USERMOD_SENSORSTOMQTT
@@ -57,15 +53,10 @@ void registerUsermods()
    * || || ||
    * \/ \/ \/
    */
-<<<<<<< HEAD
 //usermods.add(new MyExampleUsermod());
 // usermods.add(new TouchBrightnessControl());
 #ifdef USERMOD_DALLASTEMPERATURE
-=======
-  //usermods.add(new MyExampleUsermod());
-  
-  #ifdef USERMOD_DALLASTEMPERATURE
->>>>>>> 213bc75ae1b96be5ba4f810367e3deab090ebd9e
+
   usermods.add(new UsermodTemperature());
   #endif
   
